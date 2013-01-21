@@ -36,6 +36,7 @@ class Timezone {
 	    'Atlantic/Stanley'     => "(GMT-02:00) Stanley",
 	    'Atlantic/Azores'      => "(GMT-01:00) Azores",
 	    'Atlantic/Cape_Verde'  => "(GMT-01:00) Cape Verde Is.",
+		'UTC'                  => "Coordinated Universal Time (UTC)",
 	    'Africa/Casablanca'    => "(GMT) Casablanca",
 	    'Europe/Dublin'        => "(GMT) Dublin",
 	    'Europe/Lisbon'        => "(GMT) Lisbon",
@@ -129,7 +130,7 @@ class Timezone {
 	 * @access public
 	 * @return array
 	 */
-	public static function list()
+	public static function lists()
 	{
 		return static::$lists;
 	}
