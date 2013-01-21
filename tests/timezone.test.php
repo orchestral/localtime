@@ -15,6 +15,6 @@ class TimezoneTest extends Localtime\Testable\TestCase {
 		$list = Localtime\Model\Timezone::lists();
 
 		$this->assertTrue(array_key_exists('UTC', $list));
-		$this->assertTrue(array_key_exists('Asia\Kuala_Lumpur', $list));
+		$this->assertTrue(array_key_exists('Asia/Kuala_Lumpur', $list));
 	}
 }
