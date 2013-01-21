@@ -1,0 +1,9 @@
+{
+	"name"        : "Localtime Extension",
+	"description" : "Locatime Extension for Orchestra Platform",
+	"author"      : "Mior Muhammad Zaki",
+	"url"         : "",
+	"version"     : "0.1.0",
+	"config"      : {},
+	"require"     : {}
+}
