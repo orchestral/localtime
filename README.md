@@ -1,6 +1,8 @@
 Localtime Extension for Orchestra Platform
 =========
 
+Allow user to define local time when using Orchestra Platform.
+
 [![Build Status](https://secure.travis-ci.org/orchestral/localtime.png?branch=master)](http://travis-ci.org/orchestral/localtime)
 
 ## Installation
