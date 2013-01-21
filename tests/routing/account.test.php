@@ -16,12 +16,10 @@ class RoutingAccountTest extends Localtime\Testable\TestCase {
 	 */
 	public function setUp()
 	{
+		parent::setUp();
 		Config::set('application.timezone', 'UTC');
 
-		parent::setUp();
-
 		$this->user = Orchestra\Model\User::find(1);
-		$this->be($this->user);
 	}
 
 	/**
@@ -41,6 +39,7 @@ class RoutingAccountTest extends Localtime\Testable\TestCase {
 	 */
 	public function testConfigureUserLocaltime()
 	{
+		$this->be($this->user);
 		$meta = Orchestra\Memory::make('user');
 
 		$this->assertTrue(is_null($meta->get("timezone.1")));
