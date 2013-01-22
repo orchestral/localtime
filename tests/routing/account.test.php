@@ -64,6 +64,6 @@ class RoutingAccountTest extends Localtime\Testable\TestCase {
 
 		$this->assertEquals("Asia/Kuala_Lumpur", $meta->get("timezone.1"));
 		$this->assertEquals("Asia/Kuala_Lumpur", $user->timezone());
-		$this->assertEquals("2011-08-11 16:00:00", $user->localtime($date));
+		$this->assertEquals("2011-08-11 16:00:00", $user->localtime($date)->format('Y-m-d H:i:s'));
 	}
 }
