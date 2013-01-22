@@ -58,6 +58,7 @@ class RoutingAccountTest extends Localtime\Testable\TestCase {
 		Orchestra\Core::shutdown();
 		Orchestra\Core::start();
 
+		$meta = Orchestra\Memory::make('user');
 		$user = Orchestra\Model\User::find(1);
 		$date = "2011-08-11 08:00:00";
 
