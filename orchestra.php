@@ -1,5 +1,11 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Attach timezone form
+|--------------------------------------------------------------------------
+*/
+
 Event::listen('orchestra.form: user.account', function ($user, $form)
 {
 	$form->extend(function ($form)
