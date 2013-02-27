@@ -1,9 +1,9 @@
-<?php
+<?php namespace Localtime\Tests;
 
-Bundle::start('orchestra');
-Bundle::start('localtime');
+\Bundle::start('orchestra');
+\Bundle::start('localtime');
 
-class TimezoneTest extends Localtime\Testable\TestCase {
+class TimezoneTest extends \Localtime\Testable\TestCase {
 	
 	/**
 	 * Test Localtime\Model\Timezone::lists()
@@ -12,7 +12,7 @@ class TimezoneTest extends Localtime\Testable\TestCase {
 	 */
 	public function testTimezoneLists()
 	{
-		$list = Localtime\Model\Timezone::lists();
+		$list = \Localtime\Model\Timezone::lists();
 
 		$this->assertTrue(array_key_exists('UTC', $list));
 		$this->assertTrue(array_key_exists('Asia/Kuala_Lumpur', $list));
