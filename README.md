@@ -5,6 +5,8 @@ Allow user to define local time when using Orchestra Platform.
 
 [![Build Status](https://secure.travis-ci.org/orchestral/localtime.png?branch=master)](http://travis-ci.org/orchestral/localtime)
 
+> For Orchestra Platform 2, install [Control Extension](https://github.com/orchestral/control)
+
 ## Installation
 
 ### Installation with Laravel Artisan
